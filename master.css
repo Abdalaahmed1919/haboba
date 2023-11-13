@@ -1,0 +1,35 @@
+form {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.value {
+     border-radius: 50px;
+    border-color: red;
+}
+.submit {
+    border-radius: 50px;
+    border-color: red;
+    margin: 20px;
+    color: red;
+}
+body {
+    background-color: pink;
+}
+.heart1 {
+    
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: red;
+    font-size: 200px;
+
+}
+.heart2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    color: red;
+    font-size: 200px;
+}
